@@ -62,6 +62,7 @@ function AdminDashboard() {
   };
 
   useEffect(() => {
+    console.log(65, REACT_APP_BACKEND_URL)
     if (link) {
       console.log("Link has been set:", link);
     }
