@@ -18,7 +18,7 @@
     "websocket": "^1.0.35"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.0" // or the latest version
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0"
   },
   "scripts": {
     "start": "react-scripts start",
