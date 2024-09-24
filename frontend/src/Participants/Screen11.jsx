@@ -4,7 +4,7 @@ import axios from "axios";
 import io from "socket.io-client";
 const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 // Create a socket connection only once
-const socket = io(`${REACT_APP_BACKEND_URL}`, {
+const socket = io.connect(`${REACT_APP_BACKEND_URL}`, {
   transports: ["websocket", "polling"], // Use default transports
 });
 
